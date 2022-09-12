@@ -1,1 +1,1 @@
-#Diretório referente aos exercícios realizados no bloco de Front End.
+#Diretório referente aos exercícios realizados no módulo de Front End.

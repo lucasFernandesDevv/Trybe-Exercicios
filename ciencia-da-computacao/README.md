@@ -1,1 +1,1 @@
-#Diretório referente aos exercícios realizados no bloco de Ciência da Computação.
+#Diretório referente aos exercícios realizados no módulo de Ciência da Computação.

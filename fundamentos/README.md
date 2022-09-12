@@ -1,1 +1,1 @@
-#Diretório referente aos exercícios realizados no bloco de fundamentos.
+#Diretório referente aos exercícios realizados no módulo de fundamentos.
