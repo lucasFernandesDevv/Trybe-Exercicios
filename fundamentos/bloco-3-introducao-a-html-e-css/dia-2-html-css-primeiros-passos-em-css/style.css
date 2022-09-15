@@ -1,0 +1,39 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    font-style: oblique;
+    line-height: 2;
+    text-align: center;
+}
+ul{
+    background-color: aquamarine;
+    line-height: 3;
+    text-align: center;
+}
+.paladino{
+    background-color: rgb(65, 68, 68);
+    font-style: italic;
+}
+p{
+    font-weight: 600;
+    font-size: 3em;
+    font-style:italic ;
+    line-height: 5;
+    text-align: end;
+    
+
+}
+body{
+    font-size: 16px;
+    text-decoration: underline;
+}
+#amarelo{
+    color: yellow;
+}
+#vermelho{
+    color: red;
+}
+#marrom{
+    color: brown;
+}
