@@ -1,0 +1,29 @@
+div:hover{
+    border: 1px solid black;
+    background-color: gray;
+
+}
+div:nth-of-type(1){
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+div:nth-of-type(2){
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div:nth-of-type(3){
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+div:nth-of-type(4){
+    color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+div:nth-of-type(5){
+    color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div:nth-of-type(2n+1){
+    font-style: italic;
+}
