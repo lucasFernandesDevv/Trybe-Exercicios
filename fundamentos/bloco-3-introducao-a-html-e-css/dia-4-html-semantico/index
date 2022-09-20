@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+   <header>
+        <h1>Soco a 80km/h: Conheça o Stomatopoda</h1>
+   </header>
+   <nav>
+        <p><a href=""></a> Página Inicial </p>
+        <p><a href=""></a> Sobre </p>
+        <p><a href=""></a> Contato </p>
+   </nav>
+   <article>
+        <h2>Fatos sobre o Stomatopoda</h2>
+        
+   </article>
+  </body>
+</html>
