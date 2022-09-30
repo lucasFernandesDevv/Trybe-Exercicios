@@ -56,17 +56,63 @@
     </style>
   </head>
   <body>
-    <script>
+    <script> 
+      let main = document.createElement('main');
+      let section = document.createElement('section');
+      let sectionLeft = document.createElement('section')
+      let sectionRight = document.createElement('section')
+      let image = document.createElement('img')
+      
+      
+      
+      function createh1(){
       let h1 = document.createElement('h1');
       h1.innerText = 'Exercício - JavaScript DOM';
       document.body.appendChild(h1)
-      let = main = document.createElement('main');
+      }
+      createh1()
+      
+      function createMain(){
       main.className = 'main-content'
       document.body.appendChild(main);
-      let section = document.createElement('section');
-      section.classname = 'center-content';
-      main.appendChild(section);
+      }
+      createMain()
       
+      function createSection(){
+      section.className = 'center-content';
+      main.appendChild(section);
+      }
+      createSection()
+      
+      function createP (){
+        let p = document.createElement('p')
+        p.innerText = 'lasanha é muito bom'
+        section.appendChild(p)
+      }
+      createP()
+       
+      function CreateSectionLeft() {
+        sectionLeft.className = 'left-content'
+        main.appendChild(sectionLeft)
+      }
+      CreateSectionLeft()
+
+      function CreatSectionRigth() {
+        sectionRight.className = 'right-content'
+        main.appendChild(sectionRight)
+      }
+      CreatSectionRigth()
+      
+      function addImage (){
+        image.src = 'https://picsum.photos/200'
+        image.className = 'small-image'
+        sectionLeft.appendChild(image)
+      }
+      addImage()
+      
+      
+
+
     </script>
   </body>
 </html>
