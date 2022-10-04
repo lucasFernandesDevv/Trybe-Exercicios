@@ -13,7 +13,7 @@ window.onload = function (){
         let colorText = document.getElementById('text');
         colorText.style.color = selected.value;
 
-        localStorage.setItem('textColor', colorText.value);
+        localStorage.setItem('textColor', selected.value);
      
     })
 
