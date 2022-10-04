@@ -17,6 +17,12 @@ window.onload = function (){
      
     })
 
+    let fontFamily = document.querySelector('fontFamily')
+    fontFamily.addEventListener('change', function(){
+        
+
+    })
+
     let inputFontSize = document.querySelector('input[name="font-size"]')
     inputFontSize.addEventListener('change', function(){
         let text = document.getElementById('text');
@@ -26,16 +32,29 @@ window.onload = function (){
         localStorage.setItem('fontSize',`${inputFontSize.value}px`);
     })
 
+    let inputLineHeigth = document.querySelector('input[name="line-heigth"]')
+    inputLineHeigth.addEventListener('change', function() {
+        let line = document.getElementById('text');
+        let lineValue = line.style.lineHeight = `${inputLineHeigth.value}px`;
+
+        localStorage.setItem('lineHeigth',lineValue);
+    })
+
+
     let savedBackground = localStorage.getItem('backgroundColor');
     document.body.style.backgroundColor = savedBackground; 
     
     let savedColorText = localStorage.getItem('textColor');
-    let colorText = document.querySelector('p');
+    let colorText = document.getElementById('text')
     colorText.style.color = savedColorText;
     
     let savedFontSize = localStorage.getItem('fontSize');
-    let text = document.querySelector('p');
+    let text = document.getElementById('text')
     text.style.fontSize = savedFontSize;
+
+    let savedLineHeigth = localStorage.getItem('lineHeight')
+    let lineHeight = document.getElementById('text');
+    lineHeight.style.lineHeight = savedLineHeigth;
     
 }
 
