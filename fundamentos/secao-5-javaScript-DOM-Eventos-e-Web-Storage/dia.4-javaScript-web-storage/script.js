@@ -17,11 +17,11 @@ window.onload = function (){
      
     })
 
-    let fontFamily = document.querySelector('fontFamily')
-    fontFamily.addEventListener('change', function(){
+    // let fontFamily = document.querySelector('fontFamily')
+    // fontFamily.addEventListener('change', function(){
         
 
-    })
+    // })
 
     let inputFontSize = document.querySelector('input[name="font-size"]')
     inputFontSize.addEventListener('change', function(){
