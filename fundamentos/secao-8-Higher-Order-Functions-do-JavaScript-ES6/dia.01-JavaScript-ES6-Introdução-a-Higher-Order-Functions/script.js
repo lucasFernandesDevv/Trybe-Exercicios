@@ -12,7 +12,7 @@ const newEmployees = (funcionario) => {
   };
   console.log(newEmployees(gerador))
 
-
+...gerador
 
 
 
